@@ -4,7 +4,9 @@
     "module": "commonjs",
     "baseUrl": "./",
     "paths": {
-      "@/": [".src/*"]
+      "@src/*": [
+        "./src/*"
+      ]
     },
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
